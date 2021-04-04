@@ -1,4 +1,13 @@
-import { script } from './script';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-script();
-console.log('А это index.js');
+const element = React.createElement(
+   'h1',
+   { className: "element" },
+   'Кажется, мы подключили React',
+);
+
+ReactDOM.render(
+   element,
+   document.getElementById('root'),
+);
