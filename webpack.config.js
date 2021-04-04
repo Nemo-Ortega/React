@@ -20,7 +20,10 @@ module.exports = {
                 exclude: /node_modules/,
                 options: {
                     presets: ['@babel/env'],
-                }
+                },
+                options: {
+                    presets: ['@babel/env', '@babel/react'],
+                },
             },
         ],
     },
