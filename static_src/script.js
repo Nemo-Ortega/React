@@ -1,10 +1,3 @@
-export function script() {
+export const script = () => {
     console.log('Это файл script.js');
- }
- 
- 
-import { script } from './script';
-
-script();
-console.log('А это index.js');
-
+ }; 
